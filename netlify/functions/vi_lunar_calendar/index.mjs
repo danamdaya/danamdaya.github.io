@@ -14,8 +14,6 @@ export default async (req, context) => {
 
   const [user, pwd] = atob(authHeaders.split(' ')[1]).split(':');
 
-  console.log(Netlify.env.toObject());
-
   if (!Netlify.env.has(user) || pwd !== Netlify.env.get(user)) return new Response('403 Forbidden', {
     status: 403,
     headers: {

@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "build": "npm run-script"
-  },
-
-  "dependencies": {
-    "uuid": "^11.1.0"
-  }
-}
