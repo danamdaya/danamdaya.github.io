@@ -356,7 +356,7 @@ export default async (req, context) => {
 
         if (lunar[3]) controller.enqueue(encoder.encode('*'));
 
-        controller.enqueue(encoder.encode(`\nDESCRIPTION:\n\tNgày ${lunar[0]} tháng ${lunar[1]}`));
+        controller.enqueue(encoder.encode(` âm\nDESCRIPTION:\n\tNgày ${lunar[0]} tháng ${lunar[1]}`));
 
         if (lunar[3]) controller.enqueue(encoder.encode(' (nhuận)'));
 
