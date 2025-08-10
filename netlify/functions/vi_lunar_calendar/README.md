@@ -15,8 +15,8 @@ Sử dụng thuật toán tính âm lịch của Hồ Ngọc Đức, đây là m
 ## Dùng thế nào?
 
 1. Cách 1: Sử dụng liên kết của tôi:
-  `https://danamdaya.netlify.app/vi_lunar_calendar`  
-  Đăng ký theo dõi máy chủ lịch theo đường dẫn trên bằng ứng dụng lịch yêu thích của bạn và thưởng thức (liên hệ tôi qua danamdaya@gmail.com để được cấp quyền hạn).
+  ```https://danamdaya.netlify.app/vi_lunar_calendar```  
+  Đăng ký theo dõi máy chủ lịch theo đường dẫn trên bằng ứng dụng lịch yêu thích của bạn và thưởng thức (liên hệ tôi qua danamdaya@gmail.com để được cấp quyền hạn).  
 
 2. Cách 2: Sử dụng mã nguồn trên và tự tạo máy chủ lịch của riêng bạn:
   
