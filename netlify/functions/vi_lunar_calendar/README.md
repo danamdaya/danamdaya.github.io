@@ -20,5 +20,10 @@ Sử dụng thuật toán tính âm lịch của Hồ Ngọc Đức, đây là m
     ```  
     Đăng ký theo dõi máy chủ lịch theo đường dẫn trên bằng ứng dụng lịch yêu thích của bạn và thưởng thức (liên hệ tôi qua danamdaya@gmail.com để được cấp quyền hạn).  
 
-2. Cách 2: Sử dụng mã nguồn trên và tự tạo máy chủ lịch của riêng bạn:
-  
+2. Cách 2: Sử dụng mã nguồn và tự tạo máy chủ lịch của riêng bạn:
+    1. Truy cập [Github](https://github.com/), tạo tài khoản và tạo kho lưu trữ của bạn.
+    2. Đẩy mã lên kho lưu trữ bạn vừa tạo được.
+    3. Truy cập [Netlify](https://www.netlify.com) và tạo tài khoản Netlify của bạn.
+    4. Liên kết tài khoản Netlify bạn vừa tạo với kho lưu trữ Github của bạn.
+    5. Tự cấp quyền hạn truy cập cho bản thân dưới dạng biến môi trường Netlify ENV.
+    6. Đăng ký theo dõi máy chủ lịch mà bạn vừa tạo bằng ứng dụng lịch yêu thích của bạn và thưởng thức.
