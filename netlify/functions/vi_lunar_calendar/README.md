@@ -22,7 +22,7 @@ Sử dụng thuật toán tính âm lịch của Hồ Ngọc Đức, đây là m
 
 - Cách 2: Sử dụng mã nguồn và tự tạo máy chủ lịch của riêng bạn:
     1. Truy cập [Github](https://github.com/), tạo tài khoản và tạo [Github Pages](https://pages.github.com/) của bạn.
-    2. Đẩy [mã](https://github.com/danamdaya/danamdaya.github.io/blob/main/netlify/functions/vi_lunar_calendar/index.mjs) lên kho lưu trữ bạn vừa tạo được theo cấu trúc
+    2. Đẩy [index.mjs](https://github.com/danamdaya/danamdaya.github.io/blob/main/netlify/functions/vi_lunar_calendar/index.mjs), [netlify.toml](https://github.com/danamdaya/danamdaya.github.io/blob/main/netlify.toml) và [package.json](https://github.com/danamdaya/danamdaya.github.io/blob/main/package.json) lên kho lưu trữ bạn vừa tạo được theo cấu trúc
         ```
         /
         ├── netlify
