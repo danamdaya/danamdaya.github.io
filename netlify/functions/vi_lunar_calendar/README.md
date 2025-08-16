@@ -5,6 +5,11 @@ _Trình tính âm lịch tự động mã nguồn mở_
 
 Sử dụng [Thuật toán tính âm lịch của Hồ Ngọc Đức](https://www.informatik.uni-leipzig.de/~duc/amlich/calrules_v02.html), đây là một chương trình tính âm lịch tự động dưới dạng máy chủ lịch giúp bạn có thể xem âm lịch của ngày tương ứng trực tiếp trong ứng dụng lịch yêu thích của bạn mà không phải tìm kiếm trên Google.
 
+![review image](./images/vi/IMG_2161.png)
+![review image](./images/vi/IMG_2162.png)
+![review image](./images/vi/IMG_2163.png)
+![review image](./images/vi/IMG_2164.png)
+
 ## Làm được những gì?
 
 - Hoạt động hoàn hảo với ứng dụng Lịch trên iPhone
