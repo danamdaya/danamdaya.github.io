@@ -14,18 +14,13 @@ export default async (req, context) => {
 
   const [user, pwd] = atob(authHeaders.split(' ')[1]).split(':');
 
-  if (!Netlify.env.has(user) || pwd !== Netlify.env.get(user)) {
-    console.log(user);
-    console.log(pwd);
-    console.log(Netlify.env.has(user));
-    console.log(Netlify.env.get(user));
-    return new Response('403 Forbidden', {
+  if (!Netlify.env.has(user) || pwd !== Netlify.env.get(user)) return new Response('403 Forbidden', {
     status: 403,
     headers: {
       'Content-Type': 'text/plain'
     }
   });
-  }
+  
 
 
 
