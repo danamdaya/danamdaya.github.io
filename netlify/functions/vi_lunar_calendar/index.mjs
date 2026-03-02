@@ -324,7 +324,7 @@ export default async (req, context) => {
       {name: 'Kinh Trập ', meaning: 'Sâu bướm \n\tbắt đầu nở'}
     ],
     list_gio_hd = [843, 3372, 1203, 717, 2868, 3282],
-    list_ngay_hd = [[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 1], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [10, 11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [8, 9, 10, 11, 0, 1, 2, 3, 4, 5, 6, 7], [6, 7, 8, 9, 10, 11, 0, 1, 2, 3, 4, 5], [4, 5, 6, 7, 8, 9, 10, 11, 0, 1, 2, 3]],
+    // list_ngay_hd = [[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 1], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [10, 11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [8, 9, 10, 11, 0, 1, 2, 3, 4, 5, 6, 7], [6, 7, 8, 9, 10, 11, 0, 1, 2, 3, 4, 5], [4, 5, 6, 7, 8, 9, 10, 11, 0, 1, 2, 3]],
 
     encoder = new TextEncoder(), time = new Date();
 
@@ -363,7 +363,7 @@ export default async (req, context) => {
 
         const chi_of_day = (jdFromDate(Number(cr_date), Number(cr_month), cr_year) + 1) % 12;
 
-        controller.enqueue(encoder.encode(` năm ${can[(lunar[2] + 6) % 10]} ${chi[(lunar[2] + 8) % 12]} ${lunar[2]} (Âm lịch)\\n\\n\n\tNgày ${can[(jdFromDate(Number(cr_date), Number(cr_month), cr_year) + 9) % 10]} ${chi[chi_of_day]} - \n\t${nhat_tinh[list_ngay_hd[lunar[1] % 6][chi_of_day]]}\\n\n\tTháng `));
+        controller.enqueue(encoder.encode(` năm ${can[(lunar[2] + 6) % 10]} ${chi[(lunar[2] + 8) % 12]} ${lunar[2]} (Âm lịch)\\n\\n\n\tNgày ${can[(jdFromDate(Number(cr_date), Number(cr_month), cr_year) + 9) % 10]} ${chi[chi_of_day]} - \n\t${nhat_tinh[(2 - (2 * (lunar[1] % 6)) + chi_of_day) % 12]}\\n\n\tTháng `));
 
         if (Number(lunar[1]) === 1) controller.enqueue(encoder.encode('Giêng '));
         else if (Number(lunar[1]) === 12) controller.enqueue(encoder.encode('Chạp '));
