@@ -365,8 +365,8 @@ export default async (req, context) => {
 
         controller.enqueue(encoder.encode(` năm ${can[(lunar[2] + 6) % 10]} ${chi[(lunar[2] + 8) % 12]} ${lunar[2]} (Âm lịch)\\n\\n\n\tNgày ${can[(jdFromDate(Number(cr_date), Number(cr_month), cr_year) + 9) % 10]} ${chi[chi_of_day]} - \n\t${nhat_tinh[(2 - (2 * (lunar[1] % 6)) + chi_of_day) % 12]}\\n\n\tTháng `));
 
-        if (Number(lunar[1]) === 1) controller.enqueue(encoder.encode('Giêng '));
-        else if (Number(lunar[1]) === 12) controller.enqueue(encoder.encode('Chạp '));
+        if (Number(lunar[1]) === 1) controller.enqueue(encoder.encode('Giêng - '));
+        else if (Number(lunar[1]) === 12) controller.enqueue(encoder.encode('Chạp - '));
 
         controller.enqueue(encoder.encode(`${can[((lunar[2] * 12) + lunar[1] + 3) % 10]} ${chi[(lunar[1] + 1) % 12]}`));
 
