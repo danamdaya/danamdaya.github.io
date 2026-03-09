@@ -321,7 +321,7 @@ export default async (req, context) => {
       {name: 'Đại Hàn', meaning: 'Trời \n\trét đậm'},
       {name: 'Lập Xuân ', meaning: 'Thời gian bắt \n\tđầu mùa Xuân'},
       {name: 'Vũ Thủy', meaning: 'Thời tiết \n\tcó mưa ẩm'},
-      {name: 'Kinh Trập ', meaning: 'Sâu bướm \n\tbắt đầu nở'}
+      {name: 'Kinh Trập', meaning: 'Sâu bướm \n\tbắt đầu nở'}
     ],
     list_gio_hd = [843, 3372, 1203, 717, 2868, 3282],
     // list_ngay_hd = [[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 1], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [10, 11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [8, 9, 10, 11, 0, 1, 2, 3, 4, 5, 6, 7], [6, 7, 8, 9, 10, 11, 0, 1, 2, 3, 4, 5], [4, 5, 6, 7, 8, 9, 10, 11, 0, 1, 2, 3]],
