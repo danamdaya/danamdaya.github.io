@@ -310,7 +310,7 @@ export default async (req, context) => {
       {name: 'Lập Thu', meaning: 'Thời gian bắt \n\tđầu mùa Thu'},
       {name: 'Xử Thử', meaning: 'Thời tiết \n\tcó mưa ngâu'},
       {name: 'Bạch Lộ', meaning: 'Thời tiết \n\tcó nắng nhạt'},
-      {name: 'Thu Phân', meaning: 'Thời hian \n\tgiữa mùa Thu'},
+      {name: 'Thu Phân', meaning: 'Thời gian \n\tgiữa mùa Thu'},
       {name: 'Hàn Lộ', meaning: 'Thời tiết \n\tmát mẻ'},
       {name: 'Sương Giáng', meaning: 'Sương mù \n\txuất hiện'},
       {name: 'Lập Đông', meaning: 'Thời gian bắt \n\tđầu mùa Đông'},
